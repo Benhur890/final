@@ -14,12 +14,9 @@
   
   <body>
   <!-- Topo //-->
-    <div class="row no-gutters">
-      <div class="col-md-12">
           <?php
               include 'includes/topo.php';
           ?>
-      </div>
     <!-- end of nav -->
     <main class="page ">
       <div class="recipe-page">
@@ -116,20 +113,17 @@
           </article>
         </section>
       </div>
-      <!-- Rodapé //-->
-      <div class="row">
-      <div class="col-md-12">
-
+      </main>
+   
+    
+    <!-- footer -->
+                
+                <!-- Rodapé //-->
                 <?php
                     include 'includes/rodape.php';
                 ?>
             </div>
         </div>
-    </main>
-    <!-- footer -->
-    
-       
-    <script src="./js/app.js"></script>
   </body>
   
 </html>
