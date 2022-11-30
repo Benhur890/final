@@ -300,17 +300,7 @@ Navbar
   height: 23.9375rem;
 }
 
-.nav-link {
-  display: block;
-  text-align: center;
-  font-size: 1.25rem;
-  text-transform: capitalize;
-  color: var(--grey-900);
-  letter-spacing: var(--letterSpacing);
-  padding: 1rem 0;
-  border-top: 1px solid var(--grey-500);
-  transition: var(--transition);
-}
+
 .nav-link:hover {
   color: var(--primary-500);
 }
@@ -319,40 +309,7 @@ Navbar
   padding: 0.15rem 1rem;
 }
 
-@media screen and (min-width: 992px) {
-  .navbar {
-    height: 6rem;
-  }
-  .nav-center {
-    display: flex;
-    align-items: center;
-  }
-  .nav-header {
-    padding: 0;
-    margin-right: 2rem;
-    height: auto;
-  }
 
-  .nav-btn {
-    display: none;
-  }
-  .nav-links {
-    height: auto !important;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-  }
-  .nav-link {
-    padding: 0;
-    border-top: none;
-    margin-right: 1rem;
-    font-size: 1rem;
-  }
-  .contact-link {
-    margin-right: 0;
-    margin-left: auto;
-  }
-}
 /*
 =============== 
 Page

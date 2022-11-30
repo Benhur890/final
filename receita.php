@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lasanha</title>
     <!-- normalize -->
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="./css/principal.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
     <link rel="stylesheet" href="lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
-        <script src="lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>    <!-- main css -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <script src="lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>    <!-- main css -->
   </head>
 
 
@@ -22,14 +14,14 @@
   
   <body>
   <!-- Topo //-->
-    <div class="row">
+    <div class="row no-gutters">
       <div class="col-md-12">
           <?php
               include 'includes/topo.php';
           ?>
       </div>
     <!-- end of nav -->
-    <main class="page">
+    <main class="page ">
       <div class="recipe-page">
         <section class="recipe-hero">
           <img
@@ -43,7 +35,7 @@
             como também um prato, por vezes chamado lasanha ao forno, 
             \feito com essas fitas colocadas em camadas, e entremeadas com recheio e molho. 
             </p>
-            <div class="recipe-icons">
+            <div class="recipe-icons ">
               <article>
                 <i class="fas fa-clock"></i>
                 <h5>Tempo de Preparo</h5>
@@ -106,7 +98,7 @@
             </div>
             <!-- end of single instruction -->
           </article>
-          <article class="second-column">
+          <article class="second-column no-gutters">
             <div>
               <h4>Ingredientes</h4>
               <p class="single-ingredient">500 g de massa de lasanha</p>
@@ -124,9 +116,19 @@
           </article>
         </section>
       </div>
+      <!-- Rodapé //-->
+      <div class="row">
+      <div class="col-md-12">
+
+                <?php
+                    include 'includes/rodape.php';
+                ?>
+            </div>
+        </div>
     </main>
     <!-- footer -->
     
+       
     <script src="./js/app.js"></script>
   </body>
   

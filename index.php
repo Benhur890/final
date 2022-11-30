@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Página Inicial</title>
+        <title> Página</title>
         <link rel="stylesheet" href="lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
         <script src="lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
     </head>
     <body>
         
-            <div class="row">
+            <div class="row no-gutters">
                 <div class="col-md-12">
                     <!-- Topo //-->
                     <?php
@@ -15,12 +15,12 @@
                     ?>
                 </div>
             
-                <div class="col-md-12">
+                <div class="col-md-12 no-gutters">
                      <!--Menu //-->
                      <?php
                         include 'includes/menu.php';
                     ?>
-                </div>
+                </div class="col-md-12 no-gutters">
                     <!-- Corpo //-->
                     <?php
                         include 'includes/corpo.php';
@@ -29,7 +29,7 @@
             </div>
                        
         </div>
-       <div class="row">
+       <div class="row no-gutters">
             <div class="col-md-12">
                 <!-- Rodapé //-->
                 <?php

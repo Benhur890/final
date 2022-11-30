@@ -1,6 +1,6 @@
 
 <div class="container">
-  <div id="menu"class="rounded"class="border border-primary">
+  <div id="menu"class="border border-primary border-top-0 rounded-bottom">
     <ul class="nav nav-pills">
     
       
@@ -56,7 +56,7 @@
    
     margin-bottom:10px;
     border-bottom-width: 1px;
-    border-top-width: 0px;
+    border-top: 3px;
     border-right-width: 1px;
     border-left-width: 1px;
   }
