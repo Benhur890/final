@@ -5,8 +5,11 @@
         <link rel="stylesheet" href="lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
         <script src="lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <div>
+    <body class="corpo">
         
+
+
             <div class="row no-gutters">
                 <div class="col-md-12">
                     <!-- Topo //-->
@@ -40,3 +43,8 @@
     </div>
     </body>
 </html>
+<style>
+body{
+    padding-bottom 100px;
+}
+</style>
