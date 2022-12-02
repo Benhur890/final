@@ -45,6 +45,6 @@
 </html>
 <style>
 body{
-    padding-bottom 100px;
+    padding-bottom: 100px;
 }
 </style>
