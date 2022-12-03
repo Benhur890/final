@@ -52,7 +52,7 @@
             <p class="recipe-tags">
               Tags : <a href="tag-template.html">Massas</a>
               <a href="tag-template.html">Fáceis</a>
-              <a href="tag-template.html">Molho</a>
+              <a href="tag-template.html">Molhooo</a>
               <a href="tag-template.html">Lasanha</a>
             </p>
           </article>
