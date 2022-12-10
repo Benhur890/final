@@ -1,0 +1,101 @@
+:root {
+    --light: #f8f6ed;
+    --dark: #5e4152;
+    --p-light: rgba(255, 255, 255, 0.5);
+    --p-dark: rgba(94, 65, 82, 0.562);
+}
+
+.back_2 {
+    background-image: url('../img/background6.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--light);
+}
+
+.justify-content-center {
+    position: relative;
+    top: 10%;
+}
+
+.back-layer {
+    background-color: var(--p-light);
+    height: calc(100vw / 2.9);
+    border-radius: 10%;
+    margin-top: 5%;
+    border: solid 3px var(--dark);
+    color: var(--dark);
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.log {
+   background-color: transparent;
+   border: none;
+   position: relative;
+   top: -12%;
+}
+
+.mainLog {
+    width: 100%;
+}
+
+.card-body {
+    position: relative;
+    top: -10%;
+}
+
+.form-control{
+    background-color: var(--dark);
+    border: none;
+    border-radius: 0%;
+}
+
+.form-control::placeholder {
+    color: var(--p-light);
+}
+
+.form-control:focus {
+    background-color: var(--dark);
+    color: var(--light);
+    box-shadow: none;
+}
+
+.form-control:valid {
+    background-color: var(--dark);
+    color: var(--light);
+    box-shadow: none;
+}
+
+.lCad {
+    color: var(--dark);
+}
+
+.lCad:hover {
+    background-color: var(--dark);
+    color: var(--light);
+    text-decoration: none;
+    padding-block: 1%;
+    padding-inline: 2%;
+}
+
+.btn {
+    color: var(--light);
+    background-color: var(--dark);
+    border: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: var(--light);
+    background-color: var(--dark);
+    border: none;
+    box-shadow: 0 0 0 0.2rem var(--p-dark);
+}
+  
+.btn:focus, .btn.focus {
+    box-shadow: 0 0 0 0.2rem var(--p-dark);
+}
+

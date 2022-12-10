@@ -1,0 +1,203 @@
+/** git config --global user.email "maria.oliveira1@aluno.ifsp.edu.br"
+git config --global user.name "Maria Eduarda de Oliveira" **/
+
+:root {
+    --black: #000000;
+    --darkGray: #2e292e;
+    --lightGray: #444444;
+    --logoBlue: #80b8b3;
+}
+
+.back_1 {
+    background-image: url('../img/background1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--lightGray);
+}
+
+.logo {
+    background-color: var(--logoBlue);
+    width: calc(100vw / 2.7);
+    height: calc(100vw / 2.7);
+    border-radius: 50%;
+    position: absolute;
+    left: 52%;
+    top: 9%;
+}
+
+.wreath {
+    width: 128%;
+    height: 120%;
+    position: relative;
+    right: 13%;
+    bottom: 10%;
+}
+
+.enter{
+    position:absolute;
+    right: 6%;
+    bottom: 4%;
+}
+
+.entrar {
+    width:calc(100vw / 12);
+    height:calc(100vw / 12);
+}
+
+
+@media screen and (max-width: 576px) {
+    .logo {
+        background-color: var(--logoBlue);
+        width: calc(100vw / 1);
+        height: calc(100vw / 2);
+        border-radius: 50%;
+        position: absolute;
+        left: 26%;
+        top: 20%;
+    }
+    
+    .wreath {
+        width: 128%;
+        height: 120%;
+        position: relative;
+        right: 13%;
+        bottom: 10%;
+    }
+    
+    .enter{
+        position:absolute;
+        top: 60%;
+        left: 40%;
+    }
+    
+    .entrar {
+        width:calc(100vw / 5.5);
+        height:calc(100vw / 5.5);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .logo {
+        background-color: var(--logoBlue);
+        width: calc(100vw / 1);
+        height: calc(100vw / 2);
+        border-radius: 50%;
+        position: absolute;
+        left: 26%;
+        top: 20%;
+    }
+    
+    .wreath {
+        width: 128%;
+        height: 120%;
+        position: relative;
+        right: 13%;
+        bottom: 10%;
+    }
+    
+    .enter{
+        position:absolute;
+        top: 70%;
+        left: 40%;
+    }
+    
+    .entrar {
+        width:calc(100vw / 5.5);
+        height:calc(100vw / 5.5);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .logo {
+        background-color: var(--logoBlue);
+        width: calc(100vw / 1);
+        height: calc(100vw / 2);
+        border-radius: 50%;
+        position: absolute;
+        left: 26%;
+        top: 10%;
+    }
+    
+    .wreath {
+        width: 128%;
+        height: 120%;
+        position: relative;
+        right: 13%;
+        bottom: 10%;
+    }
+    
+    .enter{
+        position:absolute;
+        bottom: 2%;
+        left: 40%;
+    }
+    
+    .entrar {
+        width:calc(100vw / 5.5);
+        height:calc(100vw / 5.5);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .logo {
+        background-color: var(--logoBlue);
+        width: calc(100vw / 1);
+        height: calc(100vw / 2);
+        border-radius: 50%;
+        position: absolute;
+        left: 35%;
+        top: 10%;
+    }
+    
+    .wreath {
+        width: 128%;
+        height: 120%;
+        position: relative;
+        right: 13%;
+        bottom: 10%;
+    }
+    
+    .enter{
+        position:absolute;
+        bottom: 3%;
+        right: 11%;
+    }
+    
+    .entrar {
+        width:calc(100vw / 8);
+        height:calc(100vw / 8);
+    }  
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .logo {
+        background-color: var(--logoBlue);
+        width: calc(100vw / 2.2);
+        height: calc(100vw / 2.2);
+        border-radius: 50%;
+        position: absolute;
+        left: 40%;
+        top: 5%;
+    }
+    
+    .wreath {
+        width: 128%;
+        height: 120%;
+        position: relative;
+        right: 13%;
+        bottom: 10%;
+    }
+    
+    .enter{
+        position:absolute;
+        right: 10%;
+        bottom: 7%;
+    }
+    
+    .entrar {
+        width:calc(100vw / 10);
+        height:calc(100vw / 10);
+    }
+}

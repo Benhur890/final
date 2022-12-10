@@ -2,7 +2,7 @@
     session_start();
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+<nav class="navbar navbar-expand-lg navbar-light "style="background-color: #20B2AA			;>
     
   <a class="navbar-brand " href="#">UNIReceitas</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -25,8 +25,17 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
     </form>
-  </div>
+
+    <?php if (isset($_SESSION['login'])): ?>
+    <div class="card-body text-right">
+        Olá <?php echo $_SESSION['login']['usuario']['nome']?>!
+        <a href="core/usuario_repositorio.php?acao=logout"
+        class="btn btn-link btn-sm" role="button">Sair</a>
+    </div>
+    <?php endif ?>
+
 </nav>
+
 <style>
 
 </style>

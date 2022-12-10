@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,6 +11,13 @@
     <link rel="stylesheet" href="lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
     <script src="lib/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>    <!-- main css -->
   </head>
+  
+  
+  <?php
+require_once 'core/conexao_mysql.php';
+require_once 'core/sql.php';
+require_once 'core/mysql.php';
+?>
 
 
 
@@ -52,7 +62,7 @@
             <p class="recipe-tags">
               Tags : <a href="tag-template.html">Massas</a>
               <a href="tag-template.html">Fáceis</a>
-              <a href="tag-template.html">Molhooo</a>
+              <a href="tag-template.html">Molho</a>
               <a href="tag-template.html">Lasanha</a>
             </p>
           </article>
@@ -97,19 +107,30 @@
           </article>
           <article class="second-column no-gutters">
             <div>
-              <h4>Ingredientes</h4>
-              <p class="single-ingredient">500 g de massa de lasanha</p>
-              <p class="single-ingredient">500 g de carne moída</p>
-              <p class="single-ingredient">2 caixas de creme de leite</p>
-              <p class="single-ingredient">500 g de massa de lasanha</p>
-              <p class="single-ingredient">500 g de carne moída</p>
-              <p class="single-ingredient">2 caixas de creme de leite</p>
-              <p class="single-ingredient">500 g de massa de lasanha</p>
-              <p class="single-ingredient">500 g de carne moída</p>
-              <p class="single-ingredient">2 caixas de creme de leite</p>
+
+            <?php
+            $criterio=[['codIng','=','1']];
+            $ingredientes= buscar(
+              'ingrediente',
+              [
+                'quant',
+                'medida',
+                'nome',
+              ],
+              $criterio, 
+              'nome ASC'
+
+            );
+            foreach($ingredientes as $ingrediente) :
+            ?>
+          nome:<?php
+          echo $ingrediente['nome']
+          ?>
+          <?php
+          endforeach;
+          ?>
             </div>
-            <div>
-            </div>
+           
           </article>
         </section>
       </div>

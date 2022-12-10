@@ -17,14 +17,14 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://amopaocaseiro.com.br/wp-content/uploads/2020/01/pao-caseiro-para-iniciantes_02.jpg"  height="600" width="400" class="d-block w-100" alt="...">
+      <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400"  height="600" width="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Obrigado</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://img.cybercook.com.br/receitas/593/pao-caseiro-16.jpeg" height="600" width="400" class="d-block w-100" alt="...">
+      <img src="https://img.itdg.com.br/images/recipes/000/041/516/324032/324032_original.jpg" height="600" width="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Por</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -51,10 +51,10 @@
 
 <!--CARDS-->
 <!--Linha1-->
-<div id="pele">
-    <div id="pao">
+<div class="card-deck">
+<div id="pao" class="container">
     <div class="container">
-        <div class="carda border border-primary"> 
+        <div class="carda border   "> 
             
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
@@ -64,23 +64,78 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">LASANHA</h5>
-                <p class="card-text">Lasanha é tanto um tipo de massa alimentícia formada por fitas largas, como também um prato, por vezes chamado lasanha ao forno [...].</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content..</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="carda border border-primary"> 
+        <div class="carda border  "> 
             
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
+                <img src="https://img.itdg.com.br/images/recipes/000/041/516/324032/324032_original.jpg" class="img-fluid"/>
                 <a href="#!">
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
             </div>
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">BOLO DE BANANA</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="receita.php" class="btn btn-primary container">Button</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container"> 
+        <div class="carda border  "> 
+            
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://www.oetker.com.br/Recipe/Recipes/oetker.com.br/br-pt/dessert/image-thumb__40129__RecipeDetailsLightBox/torta-de-chocolate.jpg"  class="img-fluid"/>
+                <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">TORTA</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="receita.php" class="btn btn-primary container">Button</a>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+
+    <div id="pao" class="container">
+    <div class="container">
+        <div class="carda border  h-80"> 
+            
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://i.ytimg.com/vi/LcaOVowHJqk/maxresdefault.jpg" class="img-fluid"/>
+                <a href="receita.php">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">BRIGADEIRO</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content..</p>
+                <a href="receita.php" class="btn btn-primary container">Acesse</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="carda border"> 
+            
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" >
+                <img src="https://img.itdg.com.br/images/recipes/000/057/710/324571/324571_original.jpg"  class="img-fluid"/>
+                <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">MACARRÃO</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="receita.php" class="btn btn-primary container">Button</a>
             </div>
@@ -88,16 +143,71 @@
         </div>
     </div>
     <div class="container">
-        <div class="carda border border-primary"> 
+        <div class="carda border   "> 
             
             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2022/05/28/928209592-dia-do-hamburguer.png" class="img-fluid"/>
+                <a href="receita.php">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">LASANHA</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content..</p>
+                <a href="receita.php" class="btn btn-primary container">Acesse</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div id="pao" class="container">
+    <div class="container">
+        <div class="carda border "> 
+            
+            <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
                 <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
+                <a href="receita.php">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">HAMBÚRGUER</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content..</p>
+                <a href="receita.php" class="btn btn-primary container">Acesse</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="carda border "> 
+            
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://cdn.panelinha.com.br/receita/1588270905274-39_Panelinha_12_02_200635.jpg" class="img-fluid"/>
                 <a href="#!">
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
             </div>
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">FEIJOADA</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="receita.php" class="btn btn-primary container">Button</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="carda border "> 
+            
+            <div class="bg-image hover-overlay ripple imagem" data-mdb-ripple-color="light">
+                <img src="https://img.itdg.com.br/images/recipes/000/002/114/322150/322150_original.jpg" class="img-fluid"/>
+                <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">OMELETE</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="receita.php" class="btn btn-primary container">Button</a>
             </div>
@@ -105,114 +215,7 @@
         </div>
     </div>
     </div>
-<div>
-<!--Linhaultimo-->
-<div id="pao"  >
-<div class="container" ">
-    <div class="carda border border-primary"> 
-        
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
-            <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">LASANHA</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="receita.php" class="btn btn-primary container">Button</a>
-        </div>
     </div>
-</div>
-
-<div class="container">
-    <div class="carda border border-primary"> 
-        
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
-            <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-        </div>
-         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="receita.php" class="btn btn-primary container">Button</a>
-        </div>
-        
-    </div>
-</div>
-<div class="container">
-    <div class="carda border border-primary"> 
-        
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
-            <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-        </div>
-         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="receita.php" class="btn btn-primary container">Button</a>
-        </div>
-        
-    </div>
-</div>
-</div>
-<div id="pao" style="margin-bottom:5%;">
-<div class="container">
-    <div class="carda border border-primary"> 
-        
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
-            <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">LASANHA</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="receita.php" class="btn btn-primary container">Button</a>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="carda border border-primary"> 
-        
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
-            <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-        </div>
-         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="receita.php" class="btn btn-primary container">Button</a>
-        </div>
-        
-    </div>
-</div>
-<div class="container">
-    <div class="carda border border-primary"> 
-        
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://img.itdg.com.br/tdg/images/recipes/000/136/814/322458/322458_original.jpg?mode=crop&width=710&height=400" class="img-fluid"/>
-            <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-        </div>
-         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="receita.php" class="btn btn-primary container">Button</a>
-        </div>
-        
-    </div>
-</div>
-</div>
 
 
 
@@ -227,7 +230,7 @@
     background-clip: border-box;
     margin-top: 50px;
     border-style: solid;
-    border-color: blue;
+    border-color: yellow;
     margin-bottom:10px;
     border-bottom-width: 3px;
     border-top-width: 3px;
@@ -239,7 +242,8 @@
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 90%;
+    width:100%;
+ 
 }
 
 </style>
