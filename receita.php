@@ -18,15 +18,22 @@
               include 'includes/topo.php';
           ?>
     <!-- end of nav -->
-    <main class="page ">
-      <div class="recipe-page">
-        <section class="recipe-hero">
+    <main class="page">
+      <div class="recipe-page no-gutters">
+        <section class="recipe-hero no-gutters">
           <img
             src="https://img.itdg.com.br/tdg/images/recipes/000/000/876/324587/324587_original.jpg?mode=crop&width=710&height=400"
             class="img recipe-hero-img"
           />
-          <article class="recipe-info">
-            <h2>Lasanha</h2>
+          <article class="recipe-info" >
+            <h2 >Lasanha</h2>
+            <div class="btn-group-toggle " data-toggle="buttons">
+            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btn-check-outlined">Feita</label><br>
+            </div>
+
+
+
             <p>
             Lasanha é tanto um tipo de massa alimentícia formada por fitas largas, 
             como também um prato, por vezes chamado lasanha ao forno, 
@@ -52,12 +59,12 @@
           </article>
         </section>
         <!-- content -->
-        <section class="recipe-content">
+        <section class="recipe-content no-gutter ">
           <article>
             <h4>Modo de preparo</h4>
             <!-- single instruction -->
            
-            <div class="single-instruction">
+            <div class="single-instruction s">
               <header>
               <?php
 
@@ -76,7 +83,7 @@
               }
 
             ?>
-
+            </div>
             
           </article>
           <article class="second-column no-gutters">

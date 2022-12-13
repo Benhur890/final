@@ -21,9 +21,7 @@ CREATE TABLE usuario (
     email varchar(50) NOT NULL,
     senha varchar(50) NOT NULL,
     pontuacao varchar(50), -- pontuação geral do usuario, com ela ele pode acessar diferentes niveis de receitas
-    ativo tinyint not null default '0',
     moderador tinyint not null default '0',
-    qtdeComent int, -- quantidade de cometários
     PRIMARY KEY (id)
 );
 
@@ -61,7 +59,7 @@ CREATE TABLE pontua (
     CONSTRAINT fk_pontua_receita FOREIGN KEY (codRec) REFERENCES receita (codRec)
 );
 
-INSERT INTO usuario (nome, email, senha, moderador) VALUES ("Márcia Baptistella", "marcia.antiHacker@gmail.com", "123458", 1) ;
+INSERT INTO usuario (nome, email, senha, moderador) VALUES ("Márcia Baptistella", "marcia.antiHacker@gmail.com", "", 1) ;
 select * from usuario;
 select * from receita;
 select * from ingrediente;

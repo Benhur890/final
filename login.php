@@ -32,13 +32,13 @@
                             <button class="btn" type="submit">Entrar</a></button>
                         </div>
                         <br>
-                        <div style="text-align:center;">Caso não tenha cadastro, </div>
-                        <div style="text-align:center;"><a href="cadastro.php" class="lCad">Clique Aqui!</a>
+                        <div>Caso não tenha cadastro, </div>
+                        <div><a href="cadastro.php" class="lCad">Clique Aqui!</a>
                         </div>
                     </form>
                     <br>
                     <br>
-                    <div style="text-align:center;"><a href="pagInicial.php" style="color: black;">Ir para Página Inicial :)</a></div>
+                    <div><a href="pagInicial.php"></a></div>
                 </div>
             </div>
         </div>

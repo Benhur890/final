@@ -16,7 +16,7 @@
         </div>
         <div class="row">
             <div class="col-1 enter">
-                <a href="login.php"><img src="img/entrar.png" alt="seta para entrar" class="entrar"></a>
+                <a href="pagInicial.php"><img src="img/entrar.png" alt="seta para entrar" class="entrar"></a>
             </div>
         </div>
     </div>
