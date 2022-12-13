@@ -5,8 +5,6 @@
     require_once 'sql.php';
     require_once 'mysql.php';
 
-    $salt = 'cozinhaboaehcozinhasimples';
-
     foreach($_POST as $indice => $dado){
         $$indice = limparDados($dado);
     }
@@ -31,8 +29,6 @@
             header('Location: ../login.php');
 
             break;
-        
-        
 
         case 'update':
             $id = (int)$id;
@@ -60,8 +56,8 @@
 
             $retorno = buscar(
                 'usuario',
-                ['id', 'nome', 'email', 'senha', 'pontuacao','moderador'],
-                $criterio
+                ['id', 'nome', 'email', 'senha', 'moderador'],
+                $criterio 
             );
 
             if(count($retorno) > 0){

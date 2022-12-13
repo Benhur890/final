@@ -2,7 +2,7 @@
     function conecta(): mysqli{
         $servidor = 'localhost';
         $banco = 'cozinha';
-        $port = 3306;
+        $port = 3307;
         $usuario = 'root';
         $senha = '';
         $conexao = mysqli_connect($servidor, $usuario, $senha, $banco, $port);
@@ -13,7 +13,7 @@
             echo 'Debugging error: ' . mysqli_connect_error() . PHP_EOL;
             return null;
         }elseif($conexao) {
-            echo 'Foi possível conectar a MySql.' . PHP_EOL;
+
         }
         return $conexao;
     }

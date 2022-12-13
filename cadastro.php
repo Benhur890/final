@@ -62,13 +62,14 @@
                             <button class="btn" type="submit">Cadastrar</button>
                         </div>
                         <br>
-                        <div align="center">Caso não tenha cadastro, </div>
-                        <div align="center"><a href="login.php" class="lLog">Clique Aqui!</a></div>
+                        <div style="text-align:center;">Caso já tenha cadastro, </div>
+                        <div style="text-align:center;"><a href="login.php" class="lLog">Clique Aqui!</a></div>
                     </form>
+                    <br>
+                    <div style="text-align:center;"><a href="pagInicial.php" style="color: black;">Ir para Página Inicial :)</a></div>
                 </div>
             </div>
         </div>
-        <div><a href="pagInicial.php">Pular</a></div>
     </div>
 </body>
 </html>

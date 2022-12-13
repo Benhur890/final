@@ -19,12 +19,12 @@
                         <input type="hidden" name="acao" value="login">
                         <div class="form-group">
                             <label for="email">E-mail: </label>
-                            <input class="form-control" type="text" 
+                            <input class="form-control" required type="text" 
                                    require="required" name="email" id="email" placeholder="user@email.com">
                         </div>
                         <div class="form-group">
                             <label for="senha">Senha: </label>
-                            <input class="form-control" type="password" 
+                            <input class="form-control" required type="password" 
                                    require="required" name="senha" id="senha" placeholder="minimo 8 caracteres" >
                         </div>
                         <br>
@@ -32,14 +32,16 @@
                             <button class="btn" type="submit">Entrar</a></button>
                         </div>
                         <br>
-                        <div align="center">Caso não tenha cadastro, </div>
-                        <div align="center"><a href="cadastro.php" class="lCad">Clique Aqui!</a>
+                        <div style="text-align:center;">Caso não tenha cadastro, </div>
+                        <div style="text-align:center;"><a href="cadastro.php" class="lCad">Clique Aqui!</a>
                         </div>
                     </form>
+                    <br>
+                    <br>
+                    <div style="text-align:center;"><a href="pagInicial.php" style="color: black;">Ir para Página Inicial :)</a></div>
                 </div>
             </div>
         </div>
-        <div><a href="pagInicial.php">Pular</a></div>
     </div>
 </body>
 </html>

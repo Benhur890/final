@@ -1,6 +1,5 @@
 <?php
     session_start();
-    require_once '../includes/valida_login.php';
     require_once '../includes/funcoes.php';
     require_once 'conexao_mysql.php';
     require_once 'sql.php';
@@ -14,7 +13,7 @@
         $$indice = limparDados($dado);
     }
 
-    $id = (int)$id;
+    $codRec = (int)$codRec;
 
     switch ($acao) {
         case 'insert':
@@ -23,10 +22,7 @@
                 'titulo' => $titulo,
                 'porcoes' => $porcoes,
                 'categoria' => $categoria,
-                'avaliacao' => $avaliacao,
-                'pontuacao' => $pontuacao,
-                'visibilidade' => $visibilidade,
-                'usuario_id' => $_SESSION['login']['usuario']['id']
+                'pontuacao' => $pontuacao   
             ];
 
             insere(
@@ -41,15 +37,11 @@
                 'tempo' => $tempo,
                 'titulo' => $titulo,
                 'porcoes' => $porcoes,
-                'categoria' => $categoria,
-                'avaliacao' => $avaliacao,
-                'pontuacao' => $pontuacao,
-                'visibilidade' => $visibilidade,
-                'usuario_id' => $_SESSION['login']['usuario']['id']
+                'categoria' => $categoria
             ];
 
             $criterio = [
-                ['id', '=', $id]
+                ['codRec', '=', $codRec]
             ];
     
             atualiza(
@@ -61,7 +53,7 @@
 
         case 'delete':
             $criterio = [
-                ['id', '=', $id]
+                ['codRec', '=', $codRec]
             ];
 
             deleta(
@@ -69,8 +61,8 @@
                 $criterio
             );
 
-            break;     
+            break;
     }
 
-header('Location: ../pagInincial.php');
+header('Location: ../cadastroPreparo.php');
 ?>
