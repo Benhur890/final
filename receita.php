@@ -49,12 +49,6 @@
                 <p>6 </p>
               </article>
             </div>
-            <p class="recipe-tags">
-              Tags : <a href="tag-template.html">Massas</a>
-              <a href="tag-template.html">Fáceis</a>
-              <a href="tag-template.html">Molho</a>
-              <a href="tag-template.html">Lasanha</a>
-            </p>
           </article>
         </section>
         <!-- content -->
@@ -62,38 +56,28 @@
           <article>
             <h4>Modo de preparo</h4>
             <!-- single instruction -->
+           
             <div class="single-instruction">
               <header>
-                <p>Passo 1</p>
-                <div></div>
-              </header>
-              <p>
-              Cozinhe a massa segundo as orientações do fabricante, despeje em um refratário com água gelada para não grudar e reserve.
-              </p>
-            </div>
-            <!-- end of single instruction -->
-            <!-- single instruction -->
-            <div class="single-instruction">
-              <header>
-                <p>Etapa 2</p>
-                <div></div>
-              </header>
-              <p>
-             a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve.
-              </p>
-            </div>
-            <!-- end of single instruction -->
-            <!-- single instruction -->
-            <div class="single-instruction">
-              <header>
-                <p>Passo 3</p>
-                <div></div>
-              </header>
-              <p>
-                Refogue um Davy Albert
-              </p>
-            </div>
-            <!-- end of single instruction -->
+              <?php
+
+
+              $modo  = "/Primeiramente, pique as barras de chocolate e leve para derreter em banho-maria ou no micro-ondas, cuidado para não queimar./
+              Em seguida, em um refratário que possa ir na AirFryer, coloque o chocolate derretido, o leite condensado e a manteiga misture tudo./
+              Logo após, leve na airfryer pré-aquecida a 180°C por uns 5 minutos, retire e mexa vigorosamente para não formar bolinhas.";
+              $pieces = explode("/", $modo);
+              $cont = substr_count($modo, '/');
+              for ($i = 1; $i <= $cont; $i++) {
+
+                  echo "<p>Etapa ".$i.':</p> ';
+                  echo $pieces[$i]; // piece1
+              
+
+              }
+
+            ?>
+
+            
           </article>
           <article class="second-column no-gutters">
             <div>
