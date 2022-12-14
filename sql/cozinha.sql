@@ -1,7 +1,7 @@
 /**git config --global user.email "maria.oliveira1@aluno.ifsp.edu.br"
 git config --global user.name "Maria Eduarda de Oliveira"**/
 
--- drop database cozinha;
+drop database cozinha;
 
 create database cozinha;
 

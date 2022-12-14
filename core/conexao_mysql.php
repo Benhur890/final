@@ -13,7 +13,6 @@
             echo 'Debugging error: ' . mysqli_connect_error() . PHP_EOL;
             return null;
         }elseif($conexao) {
-
         }
         return $conexao;
     }

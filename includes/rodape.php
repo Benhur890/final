@@ -1,3 +1,10 @@
+<?php
+require_once 'funcoes.php';
+require_once './core/conexao_mysql.php';
+require_once './core/sql.php';
+require_once './core/mysql.php';
+?>
+
 <section>
   <!-- Footer -->
   <footer class="footer navbar-fixed-bottom" style="background-color: #20B2AA		;">

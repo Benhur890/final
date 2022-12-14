@@ -31,6 +31,8 @@
             header('Location: ../login.php');
 
             break;
+        
+        
 
         case 'update':
             $id = (int)$id;
@@ -58,8 +60,8 @@
 
             $retorno = buscar(
                 'usuario',
-                ['id', 'nome', 'email', 'senha','pontuacao', 'moderador'],
-                $criterio 
+                ['id', 'nome', 'email', 'senha', 'pontuacao','moderador'],
+                $criterio
             );
 
             if(count($retorno) > 0){

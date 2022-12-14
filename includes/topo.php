@@ -20,6 +20,8 @@
 
       $entidade = $retorno[0];
     };
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +45,7 @@
             class="fa-solid fa-right-to-bracket"></i>Entrar</a>
           </li>
           <?php if(isset($_SESSION['login'])): ?>
+            
              <!-- BOTÃO PONTUAÇÃO -->
               <button type="button" class="fa-solid fa-trophy" data-toggle="modal" data-target="#modalExemplo">
               PONTOS

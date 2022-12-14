@@ -57,7 +57,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Lasanha Bolognesa</h5>
-                <p class="card-text">Dificuldade: Difícil (800 pontos)</p>
+                <p class="card-text">Dificuldade: Difícil (100 pontos)</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
         </div>
@@ -73,8 +73,8 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Bolo de Laranja</h5>
-                <p class="card-text">Dificuldade: Difícil (800 pontos)</p>
-                <a href="receita.php?codRec=<php?" class="btn btn-primary container">Acesse</a>
+                <p class="card-text">Dificuldade: Difícil (80 pontos)</p>
+                <a href="receitabolo.php" class="btn btn-primary container">Acesse</a>
             </div>
             
         </div>
@@ -90,8 +90,8 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Pastel</h5>
-                <p class="card-text">Dificuldade: Fácil (450 pontos)</p>
-                <a href="receita.php" class="btn btn-primary container">Acesse</a>
+                <p class="card-text">Dificuldade: Fácil (60 pontos)</p>
+                <a href="receitapastel.php" class="btn btn-primary container">Acesse</a>
             </div>
             
         </div>
@@ -109,7 +109,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Empanada</h5>
-                <p class="card-text">Dificuldade: Médio (590 pontos)</p>
+                <p class="card-text">Dificuldade: Médio (80 pontos)</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
         </div>
@@ -124,7 +124,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Doce de Abóbora</h5>
-                <p class="card-text">Dificuldade: Difícil (810 pontos)</p>
+                <p class="card-text">Dificuldade: Difícil (150 pontos)</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
         </div>
@@ -140,7 +140,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Merengue</h5>
-                <p class="card-text">Dificuldade: Fácil (490 pontos)</p>
+                <p class="card-text">Dificuldade: Fácil (50 pontos)</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
             
@@ -158,7 +158,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Batata Frita Rústica</h5>
-                <p class="card-text">Dificuldade: Médio (630 pontos)</p>
+                <p class="card-text">Dificuldade: Médio (90 pontos)</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
         </div>
@@ -173,7 +173,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Torta de Frango</h5>
-                <p class="card-text">Dificuldade: Médio (700 pontos)</p>
+                <p class="card-text">Dificuldade: Médio (80 pontos)</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
         </div>
@@ -188,7 +188,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Brigadeiro</h5>
-                <p class="card-text">Dificuldade: Médio (600 pontos)</p>
+                <p class="card-text">Dificuldade: Médio (80 pontos)</p>
                 <a href="receita.php" class="btn btn-primary container">Acesse</a>
             </div>
         </div>

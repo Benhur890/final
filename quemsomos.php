@@ -33,7 +33,7 @@
             com suas habilidades culinárias, sem precisar de cola para fazê-las.
           </p>
           <a href="pagInicial.php" class="btn"> Home </a>
-          <button type="button" class="btn" data-toggle="modal" data-target="#modalExemplo">
+          <button type="button" class="btn" data-toggle="modal" data-target="#contato">
           Contato
         </button>
 
@@ -42,7 +42,7 @@
         
 
         <!-- Modal -->
-        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
